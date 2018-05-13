@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="SelectRoundsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="SelectRoundsRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="SelectRoundsRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="SelectRoundsRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="SelectRoundsRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,22},{0.701101,-32},{0.823165,22},{1.03889,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:SelectMode" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="SelectRoundsRoot/StaticImage" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.000488281,0},{-0.0234375,0},{0.649903,0},{0.421875,0}}" />
+            <Property Name="Image" Value="set:Unknown image:backGround" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="SelectRoundsRoot/StaticImage/Spinner" Type="TaharezLook/Spinner">
+                <Property Name="UnifiedAreaRect" Value="{{0.249478,0},{-0.149123,0},{0.560127,50},{-0.149123,50}}" />
+                <Property Name="Text" Value="3" />
+                <Property Name="CurrentValue" Value="3" />
+                <Property Name="MaximumValue" Value="99" />
+                <Property Name="MinimumValue" Value="1" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="MouseButtonDownAutoRepeat" Value="True" />
+                <AutoWindow NameSuffix="__auto_editbox__">
+                    <Property Name="Text" Value="3" />
+                    <Property Name="ValidationString" Value="-?\d*" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_incbtn__">
+                    <Property Name="WantsMultiClickEvents" Value="False" />
+                    <Property Name="MouseButtonDownAutoRepeat" Value="False" />
+                </AutoWindow>
+                <AutoWindow NameSuffix="__auto_decbtn__">
+                    <Property Name="WantsMultiClickEvents" Value="False" />
+                    <Property Name="MouseButtonDownAutoRepeat" Value="False" />
+                </AutoWindow>
+            </Window>
+            <Window Name="SelectRoundsRoot/StaticImage/StaticText" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.246633,0},{-0.295322,0},{0.612776,0},{-0.206506,0}}" />
+                <Property Name="Text" Value="SCORE TO WIN" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="SelectRoundsRoot/StaticImage/BackButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0.248872,0},{0.244152,0},{0.648448,0},{0.416507,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="BACK" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="SelectRoundsRoot/StaticImage/StartButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0.248712,0},{0.0394737,0},{0.648528,0},{0.211829,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="START" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="SelectRoundsRoot/StaticImage/AI1" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.0676692,0},{0.0730994,0},{0.277525,0},{0.906433,0}}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="Disabled" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Name="SelectRoundsRoot/StaticImage/AI1/AI1normal" Type="TaharezLook/RadioButton">
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0348836,0},{0.0438597,0},{0.548188,50},{0.0438597,50}}" />
+                    <Property Name="Text" Value="NORMAL" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI1/AI1easy" Type="TaharezLook/RadioButton">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.023256,0},{-0.149123,0},{0.559816,50},{-0.149123,50}}" />
+                    <Property Name="Text" Value="EASY" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI1/ai1text" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232557,0},{-0.336842,0},{0.791703,0},{-0.184795,0}}" />
+                    <Property Name="Text" Value="AI 1" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI1/AI1hard" Type="TaharezLook/RadioButton">
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0285715,0},{0.236842,0},{0.5545,50},{0.236842,50}}" />
+                    <Property Name="Text" Value="HARD" />
+                    <Property Name="GroupID" Value="1" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Name="SelectRoundsRoot/StaticImage/AI2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.293233,0},{0.0730994,0},{0.503089,0},{0.906433,0}}" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="Disabled" Value="True" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Window Name="SelectRoundsRoot/StaticImage/AI2/ai2text" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232557,0},{-0.336842,0},{0.791703,0},{-0.184795,0}}" />
+                    <Property Name="Text" Value="AI 2" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI2/AI2normal" Type="TaharezLook/RadioButton">
+                    <Property Name="ID" Value="1" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232558,0},{0.0438597,0},{0.559816,50},{0.0438597,50}}" />
+                    <Property Name="Text" Value="NORMAL" />
+                    <Property Name="GroupID" Value="2" />
+                    <Property Name="Selected" Value="True" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI2/AI2easy" Type="TaharezLook/RadioButton">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232558,0},{-0.149123,0},{0.559816,50},{-0.149123,50}}" />
+                    <Property Name="Text" Value="EASY" />
+                    <Property Name="GroupID" Value="2" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="SelectRoundsRoot/StaticImage/AI2/AI2hard" Type="TaharezLook/RadioButton">
+                    <Property Name="ID" Value="2" />
+                    <Property Name="UnifiedAreaRect" Value="{{-0.0232566,0},{0.236842,0},{0.559815,50},{0.236842,50}}" />
+                    <Property Name="Text" Value="HARD" />
+                    <Property Name="GroupID" Value="2" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

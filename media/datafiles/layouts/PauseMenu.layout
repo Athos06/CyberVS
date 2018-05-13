@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="PauseMenuRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="PauseMenuRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="PauseMenuRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="PauseMenuRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="PauseMenuRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,22},{0.701101,-32},{0.780196,22},{1.03889,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Pause" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="PauseMenuRoot/BackToMainButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{0.0175781,0},{0.520508,0},{0.102214,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="BACK TO MAIN MENU" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/ExitButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{0.108724,0},{0.520508,0},{0.19336,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="EXIT" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="PauseMenuRoot/OptionsButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{-0.0735677,0},{0.520508,0},{0.0110683,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="OPTIONS" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+        </Window>
+        <Window Name="PauseMenuRoot/ResumeButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{-0.164714,0},{0.520508,0},{-0.0800776,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="RESUME" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,91 @@
+material ready
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture ready.png
+            }
+        }
+    }
+}
+
+material go
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture go.png
+            }
+        }
+    }
+}
+
+
+material nextRound
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture nextRound.png
+            }
+        }
+    }
+}
+
+material p1wins
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture p1wins.png
+            }
+        }
+    }
+}
+
+
+material p2wins
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture p2wins.png
+            }
+        }
+    }
+}

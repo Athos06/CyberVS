@@ -1,0 +1,13 @@
+<Imageset AutoScaled="false" Imagefile="MenusImageset.png" Name="MenusImgSet" NativeHorzRes="1024" NativeVertRes="720">
+    <Image Height="187" Name="MenuBgTop" Width="1024" XPos="0" YPos="0" />
+    <Image Height="236" Name="MenuBgBottom" Width="1024" XPos="0" YPos="788" />
+    <Image Height="99" Name="SelectMode" Width="440" XPos="1" YPos="284" />
+    <Image Height="105" Name="Pause" Width="252" XPos="305" YPos="394" />
+    <Image Height="124" Name="MainMenu" Width="371" XPos="12" YPos="623" />
+    <Image Height="111" Name="Options" Width="300" XPos="1" YPos="392" />
+    <Image Height="103" Name="Credits" Width="316" XPos="14" YPos="510" />
+    <Image Height="63" Name="TopHUD" Width="1024" XPos="0" YPos="200" />
+    <Image Height="133" Name="Tittle" Width="465" XPos="559" YPos="270" />
+    <Image Height="99" Name="Audio" Width="256" XPos="582" YPos="405" />
+    <Image Height="106" Name="controls" Width="339" XPos="370" YPos="527" />
+</Imageset>

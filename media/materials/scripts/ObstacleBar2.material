@@ -1,0 +1,29 @@
+// ObstacleBar2 genrated by blender2ogre 0.5.9
+
+material ObstacleBar2 
+{
+
+    transparency_casts_shadows on 
+
+    technique
+    {
+        pass ObstacleBar2
+        {
+
+            diffuse 1 1 1 1.0
+            emissive 1.0 1.0 1.0 1.0
+
+			lighting on
+			scene_blend alpha_blend
+			depth_write off
+            polygon_mode solid
+			
+            texture_unit 
+            {
+                texture Bar2.png
+				scale 1.0 1.0
+                alpha_op_ex source1 src_manual src_current 0.3
+            }
+        }
+    }
+}

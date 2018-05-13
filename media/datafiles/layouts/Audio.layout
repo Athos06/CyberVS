@@ -1,0 +1,88 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="AudioRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="AudioRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="AudioRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="AudioRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="AudioRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,22},{0.701101,-32},{0.780196,22},{1.03889,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Audio" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="AudioRoot/BackButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.227539,0},{0.0371094,0},{0.520508,0},{0.121745,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="BACK" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="AudioRoot/StaticImage" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0.522461,0},{0.279948,0},{0.932617,0},{0.657552,0}}" />
+            <Property Name="Image" Value="set:Unknown image:backGround" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+        </Window>
+        <Window Name="AudioRoot/VolumeControl" Type="TaharezLook/Spinner">
+            <Property Name="UnifiedAreaRect" Value="{{0.227051,0},{-0.0703125,0},{0.470214,50},{-0.0703125,50}}" />
+            <Property Name="Text" Value="100" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="CurrentValue" Value="100" />
+            <Property Name="MaximumValue" Value="100" />
+            <Property Name="MinimumValue" Value="0" />
+            <Property Name="AutoRepeatRate" Value="0.3" />
+            <Property Name="AutoRepeatDelay" Value="0.5" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="TextParsingEnabled" Value="False" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="MouseButtonDownAutoRepeat" Value="True" />
+            <AutoWindow NameSuffix="__auto_editbox__">
+                <Property Name="Text" Value="100" />
+                <Property Name="ValidationString" Value="-?\d*" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_incbtn__">
+                <Property Name="WantsMultiClickEvents" Value="False" />
+                <Property Name="MouseButtonDownAutoRepeat" Value="True" />
+            </AutoWindow>
+            <AutoWindow NameSuffix="__auto_decbtn__">
+                <Property Name="WantsMultiClickEvents" Value="False" />
+                <Property Name="MouseButtonDownAutoRepeat" Value="True" />
+            </AutoWindow>
+        </Window>
+        <Window Name="AudioRoot/StaticText" Type="TaharezLook/StaticText">
+            <Property Name="UnifiedAreaRect" Value="{{0.225098,0},{-0.136719,0},{0.513183,0},{-0.0742187,0}}" />
+            <Property Name="Text" Value="MUSIC VOLUME" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

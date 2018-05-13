@@ -1,0 +1,54 @@
+material lifeBarEmpty
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture LifeBarEmpty.png
+            }
+        }
+    }
+}
+
+material lifeBarFull
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture LifeBarFull.png
+            }
+        }
+    }
+}
+
+
+material lifeBarFull2
+{
+	technique
+    {
+        pass
+        {
+			lighting off
+            scene_blend alpha_blend
+            depth_check off
+            
+			texture_unit
+            {	
+				texture LifeBarFull2.png
+            }
+        }
+    }
+}

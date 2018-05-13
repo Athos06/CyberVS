@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<scene formatVersion="1.0.0" generator="Ogitor SceneBuilder 0.5.4">
+    <resourceLocations>
+        <resourceLocation type="FileSystem" name=".//Media/" />
+        <resourceLocation type="FileSystem" name=".//Media/Materials/" />
+        <resourceLocation type="FileSystem" name=".//Media/Models/" />
+    </resourceLocations>
+    <environment>
+        <scenemanager name="SceneManager" id="108279672" type="OctreeSceneManager" />
+        <colourAmbient r="0.5" g="0.5" b="0.5" a="1" />
+        <fog mode="none" start="0" end="1000" density="0">
+            <colour r="0.5" g="0.5" b="0.5" a="1" />
+        </fog>
+        <viewport name="Viewport1" id="2000000002" index="1">
+            <colour r="0" g="0" b="0" a="1" />
+        </viewport>
+        <camera name="Camera#0" id="762901700" fov="0.25" projectionType="perspective">
+			<position x="7.33188e-006" y="5" z="60.7506" />
+			<rotation qw="1" qx="0" qy="0" qz="0" />
+			<clipping near="0.1" far="9000" />
+        </camera>
+    </environment>
+    <nodes>
+		 <node name="Cylinder#0" id="408703879">
+            <position x="-5.3968" y="-0.0433903" z="-35.7703" />
+            <rotation qw="0.941176" qx="0" qy="0" qz="-0.337917" />
+            <scale x="1.5" y="4.68711" z="1.5" />
+            <entity name="Cylinder#0" meshFile="Cylinder.mesh" castShadows="true">
+                <subentity index="0" materialName="BaseWhite" />
+            </entity>
+        </node>
+		<node name="Cone#0" id="368480484">
+            <position x="13.889" y="0" z="-13.6941" />
+            <rotation qw="0.7" qx="0" qy="0" qz="0.137917" />
+            <scale x="1.5" y="2.0" z="1.5" />
+            <entity name="Cone#0" meshFile="Cone.mesh" castShadows="true">
+            </entity>
+        </node>
+		<node name="Cube#0" id="747215186">
+            <position x="0" y="-1" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="1" z="1" />
+            <entity name="Cube#0" meshFile="Cube.001.mesh" castShadows="true">
+                <subentity index="0" materialName="BasicMaterial1" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#1" id="130832851">
+            <position x="1.4" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#1" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="Player#1" id="456617939">
+            <position x="8.5" y="3.5" z="0" />
+            <rotation qw="-1.62921e-007" qx="0" qy="1" qz="0" />
+            <scale x="1" y="1" z="1" />
+            <node name="Player#1Turret" id="187353130">
+                <position x="0" y="0" z="0" />
+                <rotation qw="1" qx="0" qy="0" qz="0" />
+                <scale x="1" y="1" z="1" />
+                <entity name="Player#1Turret" meshFile="Turret.mesh" castShadows="true">
+                    <subentity index="0" materialName="TurretMaterialGreen" />
+                </entity>
+            </node>
+            <node name="Player#1Weapon" id="620319224">
+                <position x="0" y="1.2346" z="0" />
+                <rotation qw="1" qx="0" qy="0" qz="0" />
+                <scale x="1" y="1" z="1" />
+            </node>
+        </node>
+        <node name="Player#0" id="743278298">
+            <position x="-8.5" y="3.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="1" z="1" />
+            <node name="Player#0Weapon" id="4333629">
+                <position x="0" y="1.2346" z="0" />
+                <rotation qw="1" qx="0" qy="0" qz="0" />
+                <scale x="1" y="1" z="1" />
+            </node>
+            <node name="Player#0Turret" id="67842647">
+                <position x="0" y="0" z="0" />
+                <rotation qw="1" qx="0" qy="0" qz="0" />
+                <scale x="1" y="1" z="1" />
+                <entity name="Player#0Turret" meshFile="Turret.mesh" castShadows="true">
+                    <subentity index="0" materialName="TurretMaterial" />
+                </entity>
+            </node>
+        </node>
+        <node name="ObstacleBar#6" id="508774072">
+            <position x="4.2" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#6" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+		</node>
+         <node name="Plane#0" id="826685384">
+            <position x="-0.13106" y="0.000228882" z="0.0744934" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="0.5" y="0.5" z="0.5" />
+            <entity name="Plane#0" meshFile="Plane.mesh" castShadows="false">
+                <subentity index="0" materialName="BasicMaterialGrid" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#0" id="61891538">
+            <position x="0" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#0" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#2" id="533005768">
+            <position x="-2.8" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#2" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#3" id="77181311">
+            <position x="2.8" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#3" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#4" id="64455092">
+            <position x="-1.4" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#4" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#5" id="251686148">
+            <position x="5.6" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#5" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#7" id="40620137">
+            <position x="-5.6" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#7" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+        <node name="ObstacleBar#8" id="707602161">
+            <position x="-4.2" y="4.5" z="0" />
+            <rotation qw="1" qx="0" qy="0" qz="0" />
+            <scale x="1" y="-1" z="1" />
+            <entity name="ObstacleBar#8" meshFile="ObstacleBar.mesh" castShadows="true">
+                <subentity index="0" materialName="ObstacleBar" />
+            </entity>
+        </node>
+    </nodes>
+</scene>

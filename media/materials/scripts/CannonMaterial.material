@@ -1,0 +1,43 @@
+// CannonMaterial genrated by blender2ogre 0.5.9
+
+material CannonMaterial 
+{
+    receive_shadows on 
+
+    technique
+    {
+        pass CannonMaterial
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 0.8256410360336304
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 0.8256410360336304
+            specular 0.0 0.0 0.0 0.8256410360336304 12.5
+            emissive 0.5664000118732453 0.5664000118732453 0.5664000118732453 0.8256410360336304
+
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			
+
+            texture_unit 
+            {
+                texture DIFF_CANNON2.png
+				alpha_op_ex source1 src_manual src_current 0.8
+            }
+        }
+		pass 
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.7647998446941351 0.7647998446941351 0.7647998446941351 1.0
+
+           
+            polygon_mode wireframe
+   
+            texture_unit 
+            {
+                texture DIFF_CANNON2.png             
+            }
+        }
+    }
+}

@@ -1,0 +1,126 @@
+template container BorderPanel(FuturisticBorderPanel)
+{
+	metrics_mode pixels
+	material HUD
+	uv_coords 0.25 0.25 0.75 0.75
+	
+	border_material HUD
+	border_size 16 16 16 16
+	border_topleft_uv     0.00 0.00 0.25 0.25
+	border_top_uv         0.25 0.00 0.75 0.25
+	border_topright_uv    0.75 0.00 1.00 0.25
+	border_left_uv        0.00 0.25 0.25 0.75
+	border_right_uv       0.75 0.25 1.00 0.75
+	border_bottomleft_uv  0.00 0.75 0.25 1.00
+	border_bottom_uv      0.25 0.75 0.75 1.00
+	border_bottomright_uv 0.75 0.75 1.00 1.00
+}
+
+template element TextArea(MyTemplates/Text)
+{
+    font_name Blue
+		metrics_mode pixels
+		char_height 30
+		colour 1.0 1.0 1.0     
+}
+
+template element TextArea(MyTemplates/SmallText)
+{
+    font_name Blue
+		metrics_mode pixels
+		char_height 12
+		colour 1.0 1.0 1.0    
+}
+
+HUD
+{
+    zorder 300
+    container BorderPanel(powerBar0) : FuturisticBorderPanel
+    {	
+		left 20
+      top 10
+      width 200
+      height 50
+      vert_align top
+			material HUD
+			element Panel(PowerBar0BarEmpty) 
+			{
+				metrics_mode pixels
+				left 10
+				top 10
+				width 180
+				height 25
+				vert_align top
+				horz_align left
+				material lifeBarEmpty
+			}	  
+			
+			element Panel(PowerBar0BarFull) 
+			{
+				metrics_mode pixels
+				left 10
+				top 10
+				width 180
+				height 25
+				vert_align top
+				horz_align left
+				material lifeBarFull
+			}	
+	
+	}
+	container BorderPanel(powerBar1) : FuturisticBorderPanel
+    {	
+		left -220
+      top 10
+      width 200
+      height 50
+      vert_align top
+	  horz_align right
+			material HUD
+	
+			element Panel(PowerBar1Empty) 
+			{
+				metrics_mode pixels
+				left 10
+				top 10
+				width 180
+				height 25
+				vert_align top
+				horz_align left
+				material lifeBarEmpty
+			}	  
+			
+			element Panel(PowerBar1Full) 
+			{
+				metrics_mode pixels
+				left 10
+				top 10
+				width 180
+				height 25
+				vert_align top
+				horz_align left
+				material lifeBarFull2
+			}	
+	
+	}
+	container BorderPanel(timer) : FuturisticBorderPanel
+  {
+	left -150
+    top 10
+    width 300
+    height 50
+	horz_align center
+    vert_align top
+		material HUD 
+
+		element TextArea(ScoreText) : MyTemplates/Text 
+		{
+			top 15
+			left -80
+			width 200
+			horz_align center
+		}	
+	}
+
+	
+}

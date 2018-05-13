@@ -1,0 +1,63 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="ControlsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="ControlsRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="ControlsRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="ControlsRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="ControlsRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.52539,22},{0.727216,-32},{0.760743,22},{1.01608,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:controls" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="ControlsRoot/StaticImage" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{5.96046e-008,0},{-0.0332032,0},{0.424805,0},{0.366537,0}}" />
+            <Property Name="Image" Value="set:Unknown image:backGround" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="ControlsRoot/StaticImage/controls" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.00229871,0},{-0.0749184,0},{0.889174,0},{0.676612,0}}" />
+                <Property Name="Image" Value="set:Unknown image:controls" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="ControlsRoot/StaticImage/BackButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0.231034,0},{0.379479,0},{0.565382,0},{0.509718,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="BACK" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

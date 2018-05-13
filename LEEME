@@ -1,0 +1,47 @@
+##########################################################
+cyberVS
+
+Autor: Jorge Rosique
+##########################################################
+
+mini demo con jugabilidad basada en el juego Gorillas. 
+Mediante disparos calculados mediantes simulacion fisica dos enemigos enfrentados han de alcanzarse el uno al otro.
+Ambos estan separados por una serie de obstaculos que al ser impactados se desplazan dando lugar a un escenario dinamico.
+Cada vez que un jugador impacta en el otro un punto es sumado a su marcador y una nueva ronda comienza.
+En cada nueva ronda el escenario y los jugadores se resetean a una posicion aletoria.
+El primer jugador en alcanzar el limite de puntuacion gana.
+
+###########################################################
+-Dependencias:
+
+se requieren de las siguientes librerias para poder ejecutar la demo:
+
+Bullet
+OgreBullet
+Ogre 1.8
+CEGUI 0.8
+SDL
+
+-Instalacion:
+
+Se puede compilar desde la carpeta raiz de la demo utilizando make
+############################################################
+
+el repositorio del proyecto se puede encontrar en la siguiente direccion:
+
+https://bitbucket.org/JorgeRC/projectgorillas
+
+comando para clonar el repositorio (se requiere tener instalado git):
+
+git clone https://JorgeRC@bitbucket.org/JorgeRC/projectgorillas.git
+
+
+
+############################################################
+
+efectos de sonido obtenidos de: http://www.freesfx.co.uk
+musica propiedad http://wrathgames.com/blog (WrathGames Studio)
+
+Recursos ofrecidos por sus autories para libre uso en proyectos no comerciales
+
+

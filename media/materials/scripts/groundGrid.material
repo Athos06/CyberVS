@@ -1,0 +1,25 @@
+// TurretMaterial genrated by blender2ogre 0.5.9
+
+material groundGrid
+{
+	receive_shadows on
+	
+	technique
+    {
+		diffuse 0.800000011920929 0.800000011920929 0.800000011920929 0.6
+		specular 0.0 0.0 0.0 0.0 12.5
+		//emissive 0.0 0.0 0.0 1.0
+		
+       pass
+        {
+		
+          texture_unit
+          {
+            texture OrangeGrid.png
+            scale 1.5 2
+            // this means that the texture will be tiled 10 times (1/10 = 0.1)
+          }
+       }   
+    }
+ }
+ 

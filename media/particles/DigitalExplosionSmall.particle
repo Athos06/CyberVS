@@ -1,0 +1,303 @@
+particle_system DigitalExplosionSmall
+{
+	quota	50
+	material	DigitalExplosion
+	particle_width	0.5
+	particle_height	0.5
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Point
+	{
+		angle	180
+		colour	0 1 1 1
+		colour_range_start	0 1 1 1
+		colour_range_end	0 1 1 1
+		direction	0 1 0
+		emission_rate	999
+		position	0 0 0
+		velocity	10
+		velocity_min	10
+		velocity_max	10
+		time_to_live	1
+		time_to_live_min	1
+		time_to_live_max	1
+		duration	1
+		duration_min	1
+		duration_max	1
+		repeat_delay	5
+		repeat_delay_min	5
+		repeat_delay_max	5
+	}
+
+}
+
+
+particle_system digitalCascade0
+{
+	quota	100
+	material	DigitalExplosion
+	particle_width	0.7
+	particle_height	0.7
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Ring
+	{
+		angle	0
+		colour	1 0 0.15 1
+		colour_range_start	1 0 0.15 1
+		colour_range_end	1 0 0.344444 1
+		direction	0 1 0
+		emission_rate	80
+		position	0 0 0
+		velocity	5
+		velocity_min	5
+		velocity_max	10
+		time_to_live	0.25
+		time_to_live_min	0.25
+		time_to_live_max	0.5
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	1.5
+		height	1.5
+		depth	0.7
+		inner_width	0.9
+		inner_height	0.9
+	}
+
+	affector LinearForce
+	{
+		force_vector	0 -70 0
+		force_application	add
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	61.46
+		rotation_speed_range_end	-90.73
+		rotation_range_start	32.2
+		rotation_range_end	20.49
+	}
+
+	affector Scaler
+	{
+		rate	-1
+	}
+}
+
+particle_system digitalCascade1
+{
+	quota	100
+	material	DigitalExplosion
+	particle_width	0.7
+	particle_height	0.7
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Ring
+	{
+		angle	0
+		colour	0 1 1 1
+		colour_range_start	0 1 0 1
+		colour_range_end	0 1 0 1
+		direction	0 1 0
+		emission_rate	80
+		position	0 0 0
+		velocity	5
+		velocity_min	5
+		velocity_max	10
+		time_to_live	0.25
+		time_to_live_min	0.25
+		time_to_live_max	0.5
+		duration	0
+		duration_min	0
+		duration_max	0
+		repeat_delay	0
+		repeat_delay_min	0
+		repeat_delay_max	0
+		width	1.5
+		height	1.5
+		depth	0.7
+		inner_width	0.9
+		inner_height	0.9
+	}
+
+	affector LinearForce
+	{
+		force_vector	0 -70 0
+		force_application	add
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	61.46
+		rotation_speed_range_end	-90.73
+		rotation_range_start	32.2
+		rotation_range_end	20.49
+	}
+
+	affector Scaler
+	{
+		rate	-1
+	}
+}
+
+
+particle_system DigitalTeleport
+{
+	quota	50
+	material	DigitalExplosion
+	particle_width	0.8
+	particle_height	2.5
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Ring
+	{
+		angle	0
+		colour	1 1 0.483333 1
+		colour_range_start	1 1 0.483333 1
+		colour_range_end	1 0.811111 0 1
+		direction	0 1 0
+		emission_rate	80
+		position	0 0 0
+		velocity	15
+		velocity_min	15
+		velocity_max	30
+		time_to_live	0.5
+		time_to_live_min	0.5
+		time_to_live_max	1
+		duration	1
+		duration_min	1
+		duration_max	1
+		repeat_delay	5
+		repeat_delay_min	5
+		repeat_delay_max	5
+		width	2
+		height	2
+		depth	1
+		inner_width	0.9
+		inner_height	0.9
+	}
+
+	affector LinearForce
+	{
+		force_vector	0 20 0
+		force_application	add
+	}
+
+	affector Scaler
+	{
+		rate	-2
+	}
+}
+
+
+
+particle_system DigitalFinalExplosion
+{
+	quota	50
+	material	Triangle
+	particle_width	1
+	particle_height	0.5
+	cull_each	false
+	renderer	billboard
+	sorted	false
+	local_space	false
+	iteration_interval	0
+	nonvisible_update_timeout	0
+	billboard_type	point
+	billboard_origin	center
+	billboard_rotation_type	texcoord
+	common_up_vector	0 1 0
+	point_rendering	false
+	accurate_facing	false
+
+	emitter Point
+	{
+		angle	180
+		colour	1 0.45 0 1
+		colour_range_start	1 0.45 0 1
+		colour_range_end	1 0 0 1
+		direction	0 1 0
+		emission_rate	600
+		position	0 0 0
+		velocity	20
+		velocity_min	20
+		velocity_max	20
+		time_to_live	1
+		time_to_live_min	1
+		time_to_live_max	1
+		duration	3
+		duration_min	3
+		duration_max	3
+		repeat_delay	1.5
+		repeat_delay_min	1.5
+		repeat_delay_max	1.5
+	}
+
+	affector Scaler
+	{
+		rate	5
+	}
+
+	affector Rotator
+	{
+		rotation_speed_range_start	360
+		rotation_speed_range_end	360
+		rotation_range_start	52.68
+		rotation_range_end	178.5
+	}
+
+	affector DirectionRandomiser
+	{
+		randomness	443.1
+		scope	1
+		keep_velocity	false
+	}
+}

@@ -1,0 +1,119 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="CreditsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1.2,0},{1.2,0}}" />
+        <Property Name="VerticalAlignment" Value="Centre" />
+        <Property Name="HorizontalAlignment" Value="Centre" />
+        <Window Name="CreditsRoot/Background" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1.2,0},{1.2,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="CreditsRoot/Background/StaticImage" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.000876352,0},{-0.0370977,0},{0.495017,0},{0.692913,0}}" />
+                <Property Name="Image" Value="set:Unknown image:backGround" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Window Name="CreditsRoot/Background/StaticImage/Author" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00654664,0},{-0.328502,0},{0.993453,0},{-0.280192,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text" Value="AUTHOR" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="CreditsRoot/Background/StaticImage/jr" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00245499,0},{-0.29066,0},{0.997545,0},{-0.255233,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text" Value="Jorge Rosique" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="CreditsRoot/Background/StaticImage/sounds" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00163666,0},{-0.198873,0},{0.998363,0},{-0.155394,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text" Value="SOUNDS EFFECTS" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="CreditsRoot/Background/StaticImage/soundtext1" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{0.00327332,0},{-0.162641,0},{1.00327,0},{-0.127214,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text" Value="http://www.freesfx.co.uk" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="CreditsRoot/Background/StaticImage/Author42" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{0.00163666,0},{-0.0925928,0},{1.00164,0},{-0.0201278,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text">
+http://wrathgames.com/blog (WrathGames Studio)</Property>
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+                <Window Name="CreditsRoot/Background/StaticImage/Music" Type="TaharezLook/StaticText">
+                    <Property Name="UnifiedAreaRect" Value="{{-0.00490999,0},{-0.120773,0},{0.99509,0},{-0.0853452,0}}" />
+                    <Property Name="Font" Value="DejaVuSans-10" />
+                    <Property Name="Text" Value="MUSIC" />
+                    <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                    <Property Name="FrameEnabled" Value="False" />
+                    <Property Name="HorzFormatting" Value="HorzCentred" />
+					<Property Name="VertFormatting" Value="VertCentred" />
+                    <Property Name="BackgroundEnabled" Value="False" />
+                    <Property Name="VerticalAlignment" Value="Centre" />
+                    <Property Name="HorizontalAlignment" Value="Centre" />
+                </Window>
+            </Window>
+            <Window Name="CreditsRoot/Background/ExitButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{-0.00656784,0},{0.403066,0},{0.286401,0},{0.487702,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="EXIT" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="CreditsRoot/Background/creditsTittle" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.00459842,0},{-0.383819,0},{0.31952,0},{-0.248805,0}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Credits" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+				
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,7 @@
+<Imageset AutoScaled="false" Imagefile="imageset2.png" Name="Unknown" NativeHorzRes="1024" NativeVertRes="768">
+    <Image Height="287" Name="controls" Width="480" XPos="95" YPos="90" />
+    <Image Height="73" Name="background" Width="72" XPos="949" YPos="0" />
+    <Image Height="168" Name="Player1Wins" Width="223" XPos="731" YPos="121" />
+    <Image Height="168" Name="Player2Wins" Width="223" XPos="730" YPos="295" />
+    <Image Height="365" Name="backGround" Width="361" XPos="78" YPos="439" />
+</Imageset>

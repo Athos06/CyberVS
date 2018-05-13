@@ -1,0 +1,84 @@
+// TurretMaterial genrated by blender2ogre 0.5.9
+
+material TurretMaterial 
+{
+    receive_shadows off
+	transparency_casts_shadows on
+	
+    technique
+    {
+        pass TurretMaterial
+        {
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 0.6
+            specular 0.0 0.0 0.0 0.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+			
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			
+            texture_unit 
+            {
+                texture DIFF_Turret.png
+				alpha_op_ex source1 src_manual src_current 0.5
+            }
+        }
+		pass 
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.7647998446941351 0.7647998446941351 0.7647998446941351 1.0
+
+           
+            polygon_mode wireframe
+   
+            texture_unit 
+            {
+                texture DIFF_Turret.png              
+            }
+        }
+    }
+}
+
+
+material TurretMaterialGreen
+{
+    receive_shadows off
+	transparency_casts_shadows on
+	 
+    technique
+    {
+        pass 
+        {
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 0.6
+            specular 0.0 0.0 0.0 0.0 12.5
+            emissive 0.0 0.0 0.0 1.0
+			
+			lighting off
+			scene_blend alpha_blend
+			depth_write off
+			
+            texture_unit 
+            {
+                texture green.png
+				alpha_op_ex source1 src_manual src_current 0.5
+            }
+        }
+		pass 
+        {
+            ambient 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            diffuse 0.800000011920929 0.800000011920929 0.800000011920929 1.0
+            specular 0.0 0.0 0.0 1.0 12.5
+            emissive 0.7647998446941351 0.7647998446941351 0.7647998446941351 1.0
+
+           
+            polygon_mode wireframe
+   
+            texture_unit 
+            {
+                texture green.png              
+            }
+        }
+    }
+}

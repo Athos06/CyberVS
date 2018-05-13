@@ -1,0 +1,76 @@
+<GUILayout>
+    <Window Name="SelectModeRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="SelectModeRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="SelectModeRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="SelectModeRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="SelectModeRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,22},{0.701101,-32},{0.823165,22},{1.03889,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:SelectMode" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="SelectModeRoot/PlayerVSAIButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{-0.093099,0},{0.515625,0},{-0.00846325,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="P1 vs AI" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+        </Window>
+        <Window Name="SelectModeRoot/PVPButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{-0.184245,0},{0.515625,0},{-0.0996091,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="P1 vs P2" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+        </Window>
+        <Window Name="SelectModeRoot/BackButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{0.0891927,0},{0.515625,0},{0.173828,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="BACK" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="SelectModeRoot/AIvsAIButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{-0.00195311,0},{0.515625,0},{0.0826826,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="AI vs AI" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="GameOverRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="GameOverRoot/bg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{-0.000976563,0},{0.00195312,0},{0.528321,0},{0.781901,0}}" />
+            <Property Name="Image" Value="set:Unknown image:backGround" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Window Name="GameOverRoot/bg/PlayAgainButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0.00451808,0},{0.227397,0},{0.471516,0},{0.312033,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="PLAY AGAIN" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+                <Property Name="AutoRenderingSurface" Value="True" />
+            </Window>
+            <Window Name="GameOverRoot/bg/BackToMenuButton" Type="TaharezLook/Button">
+                <Property Name="UnifiedAreaRect" Value="{{0.00451808,0},{0.323288,0},{0.471516,0},{0.407924,0}}" />
+                <Property Name="Font" Value="DejaVuSans-10" />
+                <Property Name="Text" Value="BACK TO MAIN MENU" />
+                <Property Name="AlwaysOnTop" Value="True" />
+                <Property Name="NormalTextColour" Value="FF000000" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="GameOverRoot/bg/finalScore" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.00217865,0},{0.0063378,0},{0.472702,0},{0.114161,0}}" />
+                <Property Name="Text" Value="FINAL SCORE" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="HorzFormatting" Value="HorzCentred" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="GameOverRoot/bg/P1wins" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0020436,0},{-0.221918,0},{0.408113,0},{0.100999,0}}" />
+                <Property Name="Image" Value="set:Unknown image:Player1Wins" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+			<Window Name="GameOverRoot/bg/P2wins" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0020436,0},{-0.221918,0},{0.408113,0},{0.100999,0}}" />
+                <Property Name="Image" Value="set:Unknown image:Player2Wins" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+            <Window Name="GameOverRoot/bg/score" Type="TaharezLook/StaticText">
+                <Property Name="UnifiedAreaRect" Value="{{0.00217865,0},{0.042309,0},{0.472702,0},{0.150132,0}}" />
+                <Property Name="Text" Value="0-0" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+				<Property Name="HorzFormatting" Value="HorzCentred" />
+				<Property Name="VertFormatting" Value="VertCentred" />
+                <Property Name="BackgroundEnabled" Value="False" />
+                <Property Name="VerticalAlignment" Value="Centre" />
+                <Property Name="HorizontalAlignment" Value="Centre" />
+            </Window>
+        </Window>
+    </Window>
+</GUILayout>

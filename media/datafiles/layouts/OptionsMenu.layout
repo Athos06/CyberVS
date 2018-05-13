@@ -1,0 +1,66 @@
+<?xml version="1.0" ?>
+<GUILayout>
+    <Window Name="OptionsRoot" Type="DefaultWindow">
+        <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{1,0}}" />
+        <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+        <Window Name="OptionsRoot/topBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0,0},{1,0},{0.286458,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgTop" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="OptionsRoot/topBg/MainMenuIMG2" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{-0.0195315,22},{0.322498,-32},{0.403321,22},{0.992866,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Tittle" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="OptionsRoot/bottomBg" Type="TaharezLook/StaticImage">
+            <Property Name="UnifiedAreaRect" Value="{{0,0},{0.657552,0},{1,0},{1,0}}" />
+            <Property Name="Image" Value="set:MenusImgSet image:MenuBgBottom" />
+            <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+            <Property Name="FrameEnabled" Value="False" />
+            <Property Name="BackgroundEnabled" Value="False" />
+            <Window Name="OptionsRoot/bottomBg/MainMenuIMG" Type="TaharezLook/StaticImage">
+                <Property Name="UnifiedAreaRect" Value="{{0.519531,22},{0.681589,-32},{0.792969,22},{1.03509,-32}}" />
+                <Property Name="Image" Value="set:MenusImgSet image:Options" />
+                <Property Name="UnifiedMaxSize" Value="{{1,0},{1,0}}" />
+                <Property Name="FrameEnabled" Value="False" />
+                <Property Name="BackgroundEnabled" Value="False" />
+            </Window>
+        </Window>
+        <Window Name="OptionsRoot/ControlsButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{-0.047526,0},{0.515625,0},{0.0371097,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="CONTROLS" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+        <Window Name="OptionsRoot/AudioButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{-0.138672,0},{0.515625,0},{-0.054036,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="AUDIO" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+            <Property Name="AutoRenderingSurface" Value="True" />
+        </Window>
+        <Window Name="OptionsRoot/BackButton" Type="TaharezLook/Button">
+            <Property Name="UnifiedAreaRect" Value="{{0.222656,0},{0.0436198,0},{0.515625,0},{0.128256,0}}" />
+            <Property Name="Font" Value="DejaVuSans-10" />
+            <Property Name="Text" Value="BACK" />
+            <Property Name="AlwaysOnTop" Value="True" />
+            <Property Name="NormalTextColour" Value="FF000000" />
+            <Property Name="VerticalAlignment" Value="Centre" />
+            <Property Name="DisabledTextColour" Value="FFFFFFFF" />
+            <Property Name="HorizontalAlignment" Value="Centre" />
+        </Window>
+    </Window>
+</GUILayout>
